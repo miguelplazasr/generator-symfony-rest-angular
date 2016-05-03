@@ -1,0 +1,15 @@
+{% extends '::layout.html.twig' %}
+    {% block title %}Welcome!{% endblock %}
+
+        {% block stylesheets %}{% endblock %}
+
+        {% block content %}
+
+            {% block body %}
+                {% block messages %}{% endblock %}
+                <div ui-view></div>
+            {% endblock %}
+
+        {% endblock %}
+
+{% block javascripts %}{% endblock %}

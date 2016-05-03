@@ -1,0 +1,114 @@
+{
+  "name": "<%= project_name %>",
+  "authors": [
+    "<%= author_name %>"
+  ],
+  "description": "<%= project_description %>",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.5",
+    "font-awesome": "fontawesome#^4.6.1",
+    "font-awesome-animation": "^0.0.8",
+    "animate.css": "^3.5.1",
+    "angular-route": "^1.5.5",
+    "angular-bootstrap": "^1.3.2",
+    "angular-ui-router": "^0.2.18",
+    "angular-resource": "^1.5.5",
+    "bootstrap-ui-navbar": "^0.0.2",
+    "angular-touch": "^1.5.5",
+    "angular-animate": "^1.5.5",
+    "angular-chart": "^0.5.0",
+    "Ionicons": "ionicons#^2.0.1",
+    "restangular": "^1.5.2",
+    "angular-cookies": "^1.5.5",
+    "ui-navbar": "^0.4.3"
+  },
+  "exportsOverride": {
+    "angular": {
+      "js": "angular.js"
+    },
+    "angular-animate": {
+      "js": "angular-animate.js"
+    },
+    "animate.css": {
+      "css": "animate*.css"
+    },
+    "angular-touch": {
+      "js": "angular-touch.js"
+    },
+    "angular-bootstrap": {
+      "js": [
+        "ui-bootstrap.js",
+        "ui-bootstrap-tpls.js"
+      ],
+      "css": "ui-bootstrap*.css"
+    },
+    "bootstrap-ui-navbar": {
+      "js": "dist/bootstrap-ui-navbar.js"
+    },
+    "angular-resource": {
+      "js": "angular-resource.js"
+    },
+    "angular-route": {
+      "js": "angular-route.js"
+    },
+    "angular-ui-router": {
+      "js": "release/angular-ui-router.js"
+    },
+    "angular-chart": {
+      "js": "angular-chart.js"
+    },
+    "c3": {
+      "js": "c3.js",
+      "css": "c3.css"
+    },
+    "d3": {
+      "js": "d3.js"
+    },
+    "font-awesome-animation": {
+      "css": "dist/css/font-awesome-animation.css"
+    },
+    "font-awesome": {
+      "css": "css/font-awesome.css",
+      "fonts": "fonts/*"
+    },
+    "jquery": {
+      "js": "dist/jquery.js"
+    },
+    "bootstrap": {
+      "js": "dist/js/bootstrap.js",
+      "fonts": "dist/fonts/*",
+      "css": [
+        "dist/css/bootstrap.css",
+        "dist/css/bootstrap-theme.css"
+      ]
+    },
+    "Ionicons": {
+      "css": "css/ionicons.css",
+      "fonts": "fonts/*"
+    },
+    "lodash": {
+      "js": "lodash.js"
+    },
+    "restangular": {
+      "js": "dist/restangular.js"
+    },
+    "angular-cookies": {
+      "js": "angular-cookies.js"
+    },
+    "ui-navbar": {
+      "js": "release/js/ui-navbar.js",
+      "css": "release/css/ui-navbar.css"
+    }
+  }
+}
